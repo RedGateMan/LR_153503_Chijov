@@ -7,16 +7,15 @@
 
 using namespace std;
 
-double mFunction(double k) {
+ld mFunction(ll k) {
     if (sin(k) <= 0.2) {
         return k;
     } else if (sin(k) >= 0.2 && sin(k) <= 0.9) {
         return sqrt(k);
     } else if (sin(k) >= 0.9) {
         return sqrt(sqrt(k));
-    } else {
-        return 0;
     }
+    return 0;
 }
 
 int task_1() {
@@ -28,7 +27,7 @@ int task_1() {
     ld *y = new ld[n];
     cout << "Enter X values" << endl;
     for (int i = 0; i < n; i++) {
-        x[i] = getFloat(-3456789, 23456789);
+        x[i] = getFloat(-23456789, 23456789);
     }
     cout << "Enter Y values" << endl;
     for (int i = 0; i < n; i++) {
