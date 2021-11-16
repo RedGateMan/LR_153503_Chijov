@@ -12,7 +12,7 @@ int main() {
             task_1();//OK
             break;
         case 2:
-            task_2();
+            task_2();//OK
             break;
         case 3:
             task_3();

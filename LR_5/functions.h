@@ -5,7 +5,7 @@
 #ifndef TASKS_FUNCTIONS_H
 #define TASKS_FUNCTIONS_H
 #define ll long long
-#define ld long long
+#define ld long double
 long long getInt(long long l, long long r);
 long double getFloat(long double l, long double r);
 //
