@@ -13,3 +13,4 @@ add_executable(main main.cpp
         functions.cpp
         functions.h
         Tasks.h)
+add_subdirectory(Google_tests)

@@ -1,6 +1,7 @@
 #include <iostream>
 #include <cmath>
 #include "E:\LR's\LR_5\functions.h"
+#include <gtest/gtest.h>
 
 #define ll long long
 #define ld long double
