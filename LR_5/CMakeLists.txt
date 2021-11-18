@@ -12,5 +12,5 @@ add_executable(main main.cpp
         task_6 Task_6/task_6.cpp
         functions.cpp
         functions.h
-        Tasks.h)
+        Tasks.h Google_tests/test1.cpp)
 add_subdirectory(Google_tests)
