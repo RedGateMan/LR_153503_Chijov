@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+E:/LR's/LR_5/dll/library.cpp
+library.h
+E:/LR's/LR_5/dll/library.h
+iostream
+-
+
+E:/LR's/LR_5/dll/library.h
+

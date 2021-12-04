@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" ENABLED="true" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="3f858080-befd-44d1-92a8-5bb898a018a3" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../LR_5/Tests/ClassName.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LR_5/Tests/test_1.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LR_5/dll/.idea/dll.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LR_5/dll/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LR_5/dll/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LR_5/dll/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LR_5/dll/lib/libdll.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../staticLib/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../staticLib/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../staticLib/.idea/staticLib.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../staticLib/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../staticLib/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../staticLib/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../staticLib/cmake-build-debug/.cmake/api/v1/query/codemodel-v2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../staticLib/cmake-build-debug/.cmake/api/v1/query/toolchains-v1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../staticLib/cmake-build-debug/.cmake/api/v1/reply/cache-v2-635b0e81ba1bcc631742.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../staticLib/cmake-build-debug/.cmake/api/v1/reply/cmakeFiles-v1-28804dfc8748ec641f31.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../staticLib/cmake-build-debug/.cmake/api/v1/reply/codemodel-v2-47731d0689bd2bf278d1.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../staticLib/cmake-build-debug/.cmake/api/v1/reply/directory-.-Debug-d0094a50bb2071803777.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../staticLib/cmake-build-debug/.cmake/api/v1/reply/index-2021-12-03T10-25-22-0558.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../staticLib/cmake-build-debug/.cmake/api/v1/reply/target-staticLib-Debug-eee8aa34410548f0d204.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../staticLib/cmake-build-debug/.cmake/api/v1/reply/toolchains-v1-f76e61fd0e953e82d14d.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../staticLib/cmake-build-debug/CMakeCache.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../staticLib/cmake-build-debug/CMakeFiles/3.21.1/CMakeCCompiler.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../staticLib/cmake-build-debug/CMakeFiles/3.21.1/CMakeCXXCompiler.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../staticLib/cmake-build-debug/CMakeFiles/3.21.1/CMakeDetermineCompilerABI_C.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../staticLib/cmake-build-debug/CMakeFiles/3.21.1/CMakeDetermineCompilerABI_CXX.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../staticLib/cmake-build-debug/CMakeFiles/3.21.1/CMakeRCCompiler.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../staticLib/cmake-build-debug/CMakeFiles/3.21.1/CMakeSystem.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../staticLib/cmake-build-debug/CMakeFiles/3.21.1/CompilerIdC/CMakeCCompilerId.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../staticLib/cmake-build-debug/CMakeFiles/3.21.1/CompilerIdC/a.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../staticLib/cmake-build-debug/CMakeFiles/3.21.1/CompilerIdCXX/CMakeCXXCompilerId.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../staticLib/cmake-build-debug/CMakeFiles/3.21.1/CompilerIdCXX/a.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../staticLib/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../staticLib/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../staticLib/cmake-build-debug/CMakeFiles/clion-environment.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../staticLib/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../staticLib/cmake-build-debug/CMakeFiles/cmake.check_cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../staticLib/cmake-build-debug/CMakeFiles/rules.ninja" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../staticLib/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../staticLib/cmake-build-debug/build.ninja" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../staticLib/cmake-build-debug/cmake_install.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../staticLib/library.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../staticLib/library.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LR_1/LR_1/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/../LR_1/LR_1/cmake-build-debug/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LR_5/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../LR_5/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LR_5/Google_tests/CMakeLists.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LR_5/Google_tests/lib/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../LR_5/CMake/FindstaticLib.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LR_5/Google_tests/test1.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../staticLib/cmake-build-debug/.cmake/api/v1/query/cache-v2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LR_5/Google_tests/tests2.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../staticLib/cmake-build-debug/.cmake/api/v1/query/cmakeFiles-v1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LR_5/Task_1/task_1.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../LR_5/Task_1/task_1.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LR_5/Tasks.h" beforeDir="false" afterPath="$PROJECT_DIR$/../LR_5/Tasks.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LR_5/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../LR_5/main.cpp" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectApplicationVersion">
+    <option name="ide" value="CLion" />
+    <option name="majorVersion" value="2021" />
+    <option name="minorVersion" value="3" />
+  </component>
+  <component name="ProjectId" id="21owAEAzfldrWH9pKj7RRbqbS3u" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="RunOnceActivity.cidr.known.project.marker" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="cf.first.check.clang-format" value="false" />
+    <property name="cidr.known.project.marker" value="true" />
+    <property name="cmake.loaded.for.project" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3f858080-befd-44d1-92a8-5bb898a018a3" name="Changes" comment="" />
+      <created>1638620605691</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1638620605691</updated>
+      <workItem from="1638620610891" duration="14000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
