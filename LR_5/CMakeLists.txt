@@ -2,7 +2,9 @@ cmake_minimum_required(VERSION 3.20)
 project(LR_5)
 
 set(CMAKE_CXX_STANDARD 17)
+find_package(GTest)
 
+#adding executable files
 add_executable(main main.cpp
         task_1 Task_1/task_1.cpp
         task_2 Task_2/task_2.cpp
@@ -12,5 +14,18 @@ add_executable(main main.cpp
         task_6 Task_6/task_6.cpp
         functions.cpp
         functions.h
-        Tasks.h Google_tests/test1.cpp)
-add_subdirectory(Google_tests)
+        dll dll/library.cpp
+        dll dll/library.h
+        Tasks.h Tests/ClassName.h Tests/test_1.cpp)
+
+#incliding static libs
+
+
+
+
+
+#including googletest
+add_subdirectory(lib/googletest)
+include_directories(lib/googletest/googletest/include)
+include_directories(lib/googletest/googlemock/include)
+target_link_libraries(gtest gtest_main)
