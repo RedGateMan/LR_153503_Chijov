@@ -1,0 +1,17 @@
+E:\Clion\bin\cmake\win\bin\cmake.exe -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=E:/Clion/bin/ninja/win/ninja.exe -G Ninja E:\LR's\LR_7
+-- Configuring done
+-- Generating done
+CMake Error:
+  Running
+
+   'E:/Clion/bin/ninja/win/ninja.exe' '-C' 'E:/LR's/LR_7/cmake-build-debug' '-t' 'recompact'
+
+  failed with:
+
+   ninja: warning: bad deps log signature or version; starting over
+
+  ninja: error: failed recompaction: No such file or directory
+
+
+
+CMake Generate step failed.  Build files cannot be regenerated correctly.

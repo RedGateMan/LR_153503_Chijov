@@ -116,7 +116,7 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named LR_6
+# Target rules for targets named LR_7
 
 # Build rule for target.
 LR_6: cmake_check_build_system

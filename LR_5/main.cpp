@@ -1,12 +1,10 @@
 #include <iostream>
 #include "Tasks.h"
-#include "staticLib.h"
-#include <gtest/gtest.h>
 
 int main() {
     std::cout << "Enter task number: ";
     long long n;
-    n = getInt(1, 6);
+    std::cin >> n;
     // hello world
     switch (n) {
         case 1:

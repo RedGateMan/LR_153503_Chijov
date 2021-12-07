@@ -1,6 +1,4 @@
 #include <iostream>
-#include <cmath>
-#include <gtest/gtest.h>
 #include "E:\LR's\LR_5\functions.h"
 #include "E:\LR's\LR_5\dll\library.h"
 
@@ -10,7 +8,6 @@
 using namespace std;
 
 int task_1() {
-    testing::InitGoogleTest();
     unsigned ll n;
     cout << "Enter N: ";
     n = getInt(1, 2e10);

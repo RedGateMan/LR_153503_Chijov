@@ -3,4 +3,18 @@
   <component name="CMakeWorkspace" PROJECT_DIR="$PROJECT_DIR$/LR_5">
     <contentRoot DIR="$PROJECT_DIR$" />
   </component>
+  <component name="CidrRootsConfiguration">
+    <sourceRoots>
+      <file path="$PROJECT_DIR$/LR_7/Task_1" />
+      <file path="$PROJECT_DIR$/LR_7/Task_10" />
+      <file path="$PROJECT_DIR$/LR_7/Task_2" />
+      <file path="$PROJECT_DIR$/LR_7/Task_3" />
+      <file path="$PROJECT_DIR$/LR_7/Task_4" />
+      <file path="$PROJECT_DIR$/LR_7/Task_5" />
+      <file path="$PROJECT_DIR$/LR_7/Task_6" />
+      <file path="$PROJECT_DIR$/LR_7/Task_7" />
+      <file path="$PROJECT_DIR$/LR_7/Task_8" />
+      <file path="$PROJECT_DIR$/LR_7/Task_9" />
+    </sourceRoots>
+  </component>
 </project>

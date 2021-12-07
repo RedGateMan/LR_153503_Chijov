@@ -1,4 +1,4 @@
-# Install script for directory: E:/LR's/LR_1/LR_6
+# Install script for directory: E:/LR's/LR_1/LR_7
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
