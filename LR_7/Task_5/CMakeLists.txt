@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 3.21)
-project(Task_5)
+project(Task_1)
 
 set(CMAKE_CXX_STANDARD 20)
 
-add_executable(Task_5 task_5.cpp)
+add_executable(Task_1 task_5.cpp)

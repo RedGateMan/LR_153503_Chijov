@@ -1,18 +1,17 @@
 #include <iostream>
-#include "functions.h"
 #include "Tasks.h"
+#include "E:\LR's\LR_7\functions.h"
 
 int main() {
     std::cout << "Enter task number: ";
     long long n;
-    n = getInt(1, 6);
-    // hello world
+    std::cin >> n;
     switch (n) {
         case 1:
-            task_1();//OK
+            task_1();
             break;
         case 2:
-            task_2();//OK
+            task_2();
             break;
         case 3:
             task_3();
