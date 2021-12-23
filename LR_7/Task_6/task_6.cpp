@@ -1,5 +1,6 @@
 #include <iostream>
 #include "E:\LR's\LR_7\functions.h"
+#define ll long long
 
 int task_6() {
     ll n;

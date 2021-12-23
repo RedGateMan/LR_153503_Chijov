@@ -49,3 +49,23 @@ unsigned long long myFact(long long x) {///Максимально вводимо
     }
     return result;
 }
+
+void quickSort(int *array, int size) {
+    int mid = array[size / 2];
+    int i = 0, j = size - 1;
+    do {
+        while (array[i] < mid)
+            i++;
+        while (array[j] > mid)
+            j--;
+        if (i <= j) {
+            std::swap(array[i], array[j]);
+            i++;
+            j--;
+        }
+    } while (i <= j);
+    if (j > 0)
+        quickSort(array, j + 1);
+    if (size > i)
+        quickSort(&array[i], size - i);
+}
