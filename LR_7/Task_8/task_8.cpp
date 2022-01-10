@@ -1,119 +1,126 @@
-//task 8 lab 7 Created by Bahdanau 153502
 #include <iostream>
 #include <vector>
+#include <cmath>
+#include <string>
 #include <algorithm>
+
+#define mp make_pair
+#define fi first
+#define se second
+#define pb push_back
+#define all(x) (x).begin(), (x).end()
+#define forn(i, n) for (int i = 0; i < (int)(n); ++i)
+#define ford(i, n) for (int i = (int)(n) - 1; i >= 0; --i)
+#define fore(i, a, b) for (int i = (int)(a); i <= (int)(b); ++i)
 
 using namespace std;
 
-void Normalize(vector<int>& c) {
-    for (int i = 0; i < c.size() - 1; ++i) {
-        c[i + 1] += c[i] >> 1;
-        c[i] &= 1;
+typedef vector<int> vi;
+typedef long long i64;
+
+template<class T> bool uin(T& a, T b) { return a > b ? (a = b, true) : false; }
+template<class T> bool uax(T& a, T b) { return a < b ? (a = b, true) : false; }
+
+int B = 1;
+const int fm = (1LL << B) - 1;
+
+void norm(vi& c) {
+    forn(i, (int)c.size() - 1) {
+        c[i + 1] += c[i] >> B;
+        c[i] &= fm;
     }
+    //    while (!c.empty() && !c.back()) c.pop_back();
 }
 
-void AddZero(vector<int>& c, int x) {
-    c.resize(x + 1);
-    c[x] = 0;
+void trim(vi& c, int x) {
+    c.resize(x / B + 1);
+    c[x / B] &= (1LL << (x % B)) - 1;
 }
 
-vector<int> AddNum(const vector<int>& a, const vector<int>& b, int k) {
-
-    vector<int> c(max(a.size(), b.size()) + 1);
-
-    for (int i = 0; i < c.size(); ++i) {
-        if (i < a.size()) {
-            c[i] += a[i];
-        }
-        if (i < b.size()) {
-            c[i] += b[i];
-        }
+vi add(const vi& a, const vi& b, int k) {
+    vi c(max(a.size(), b.size()) + 1);
+    forn(i, c.size()) {
+        if (i < (int)a.size()) c[i] += a[i];
+        if (i < (int)b.size()) c[i] += b[i];
     }
-
-    Normalize(c);
-    AddZero(c, k);
-
+    norm(c);
+    trim(c, k);
     return c;
 }
 
-int GetBit(const vector<int>& v, int b) {
-    return v[b] & 1;
+int get_bit(const vi& v, int b) {
+    return (v[b / B] >> (b % B)) & 1;
 }
 
-vector<int> Multiply(const vector<int>& a, int x, int k) {
-
-    vector<int> b = a;
-    b.push_back(0);
-
-    for (int i = 0; i < b.size(); ++i) {
-        b[i] *= x;
-    }
-
-    Normalize(b);
-    AddZero(b, k);
-
+vi mul(const vi& a, int x, int k) {
+    vi b = a;
+    b.pb(0);
+    forn(i, b.size()) b[i] *= x;
+    norm(b);
+    trim(b, k);
     return b;
 }
 
-void GenerateSequence(vector<int> n, const vector<vector<int>>& p, int k, int i, vector<pair<int, vector<int>> >& v) {
-
+void gen(vi n, const vector<vi>& p, int k, int i, vector<pair<int, vi> >& v) {
     if (i == k) {
         n.resize(k + 1);
-        if (GetBit(n, k)) {
-            v.push_back(make_pair(k, n));
-        }
+        if (get_bit(n, k)) v.pb(mp(k, n));
         return;
     }
-
-    if (GetBit(n, i)) {
-        return;
-    }
-
-    GenerateSequence(n, p, k, i + 1, v);
-
-    if (i) {
-        GenerateSequence(AddNum(n, p[i], k + 1), p, k, i + 1, v);
-    }
-    return;
+    if (get_bit(n, i)) return;
+    gen(n, p, k, i + 1, v);
+    if (i) gen(add(n, p[i], k + 1), p, k, i + 1, v);
 }
 
-int main() {
+void print(const vi& v, int k) {
+    ford(i, k + 1) {
+        cerr << get_bit(v, i);
+    }
+    cerr << '\n';
+}
+
+int task_8() {
+    ios::sync_with_stdio(false);
+    cin.tie(nullptr);
+    cout.precision(10);
+    cout << fixed;
+
+    //freopen("binary.in", "rt", stdin);
+    //freopen("binary.out", "wt", stdout);
 
     int n;
     cin >> n;
-
     if (n == 1) {
-        cout << "1";
+        cout << "1\n";
         return 0;
     }
     --n;
 
-    vector<pair<int, vector<int>>> sequence;
+    vector<pair<int, vi> > v;
+    for (int k = 1; n / 2 >= (int)v.size(); ++k) {
+        vi n(k / B + 1);
+        n[k / B] = 1LL << (k % B);
+        vector<vi> p(k + 1);
+        //        p.pb(vi(k / B));
+        p[0].pb(1);
+        trim(p[0], k + 1);
 
-    for (int k = 1; n / 2 >= sequence.size(); ++k) {
-        vector<int> a(k + 1);
-        a[k] = 1;
-        vector<vector<int>> b(k + 1);
-        b[0].push_back(1);
-        AddZero(b[0], k + 1);
-        for (int i = 0; i < k; ++i) {
-            b[i + 1] = Multiply(b[i], 10, k + 1);
-        }
-        GenerateSequence(a, b, k, 0, sequence);
+        forn(i, k) p[i + 1] = mul(p[i], 10, k + 1);
+        gen(n, p, k, 0, v);
+        //        cerr << k << ' ' << v.size() - pv << '\n';
     }
+    forn(i, v.size()) reverse(all(v[i].se));
+    sort(all(v));
 
-    for (int i = 0; i < sequence.size(); ++i) {
-        reverse(sequence[i].second.begin(), sequence[i].second.end());
-    }
-    sort(sequence.begin(), sequence.end());
     --n;
-    vector<int> answer = sequence[n / 2].second;
-    reverse(answer.begin(), answer.end());
-    if (n % 2) {
-        answer[0] ^= 1;
-    }
-    for (int k = sequence[n / 2].first; k >= 0; --k) {
-        cout << GetBit(answer, k);
-    }
+    vi w = v[n / 2].se;
+    reverse(all(w));
+    if (n & 1) w[0] ^= 1;
+    ford(k, v[n / 2].fi + 1) cout << get_bit(w, k);
+    cout << '\n';
+
+#ifdef LOCAL_DEFINE
+    cerr << "Time elapsed: " << 1.0 * clock() / CLOCKS_PER_SEC << " s.\n";
+#endif
     return 0;
 }
