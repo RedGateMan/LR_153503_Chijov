@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
+    <generated>
+      <config projectName="LR_8" targetName="LR_8" />
+    </generated>
+  </component>
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" ENABLED="true" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="096a6cd7-8afb-4480-bca6-cd09191739f3" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/input.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LR_7/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../LR_7/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LR_7/Task_10/task_10.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../LR_7/Task_10/task_10.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LR_7/Task_8/task_8.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../LR_7/Task_8/task_8.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LR_7/Task_9/task_9.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../LR_7/Task_9/task_9.cpp" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectApplicationVersion">
+    <option name="ide" value="CLion" />
+    <option name="majorVersion" value="2021" />
+    <option name="minorVersion" value="3" />
+  </component>
+  <component name="ProjectId" id="22gELxilKBv3YJ4wn1A7wra2rwb" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="RunOnceActivity.cidr.known.project.marker" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="cf.first.check.clang-format" value="false" />
+    <property name="cidr.known.project.marker" value="true" />
+    <property name="cmake.loaded.for.project" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
+    <property name="structure.view.defaults.are.configured" value="true" />
+  </component>
+  <component name="RunManager">
+    <configuration name="LR_8" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="LR_8" TARGET_NAME="LR_8" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="LR_8" RUN_TARGET_NAME="LR_8">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="096a6cd7-8afb-4480-bca6-cd09191739f3" name="Changes" comment="" />
+      <created>1640250777991</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1640250777991</updated>
+      <workItem from="1640250779689" duration="29000" />
+      <workItem from="1640251041219" duration="2614000" />
+      <workItem from="1640261004839" duration="16000" />
+      <workItem from="1640265826729" duration="3227000" />
+      <workItem from="1640274549031" duration="20000" />
+      <workItem from="1640275665517" duration="9058000" />
+      <workItem from="1640295990473" duration="5400000" />
+      <workItem from="1640333688109" duration="345000" />
+      <workItem from="1640336726082" duration="490000" />
+      <workItem from="1640386986432" duration="6696000" />
+      <workItem from="1640426404996" duration="4905000" />
+      <workItem from="1640767153583" duration="48000" />
+      <workItem from="1640768085121" duration="1252000" />
+      <workItem from="1640884713090" duration="1000" />
+      <workItem from="1641182734425" duration="1570000" />
+      <workItem from="1641228027104" duration="595000" />
+      <workItem from="1641246743907" duration="2000" />
+      <workItem from="1641580996664" duration="2626000" />
+      <workItem from="1641675325536" duration="76000" />
+      <workItem from="1641678327556" duration="1744000" />
+      <workItem from="1641680104695" duration="51000" />
+      <workItem from="1641723162455" duration="1602000" />
+      <workItem from="1641738974328" duration="935000" />
+      <workItem from="1641764720857" duration="10149000" />
+      <workItem from="1641812801761" duration="10544000" />
+      <workItem from="1641840660747" duration="3291000" />
+      <workItem from="1641844665090" duration="25000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

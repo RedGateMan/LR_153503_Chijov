@@ -1,0 +1,12 @@
+FIO: 0VladymtsauVadzimDzianisavich
+Table number: 1
+Worked hours: 120
+Hour rate: 1.2
+Salary: 126
+
+FIO: ChyzhouYahorSiarheevich
+Table number: 2
+Worked hours: 120
+Hour rate: 0.9
+Salary: 95
+
